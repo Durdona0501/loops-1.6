@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+
+img{
+  vertical-align: middle;
+}
+
+body{
+  margin: 0px; 
+  background-color: #5c6067;
+  margin-top: 100px;
+}
+
+.container{
+  width: 1060px;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: #fff;
+  
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact-part {
+  margin-right: auto;
+}
+
+h1 h2 p ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.membership-offer {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 24px;
+  color: #000;
+  margin-left: 40px;
+}
+
+.membership-content {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  color: #7D7987;
+  margin-left: 40px;
+}
+
+.sign-up {
+  list-style-type: none;
+  margin-top: 35px;
+  margin-bottom: 100px;
+}
+
+.sign-up-list {
+  border: 2px solid #a9a8ab;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.social-media{
+  margin-right: 60px;
+}
+
+.sign-up-link{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  color: #706c79;
+}
+
+.more-info {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000;
+  margin-left: 40px;
+  border-top: 3px solid #a9a8ab;
+  padding-top: 15px ;
+}
+
+.email-contact {
+  margin-left: 30px;
+}
+
